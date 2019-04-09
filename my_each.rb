@@ -7,11 +7,10 @@ def my_each(collection) # put argument(s) here
     yield(collection[i])
   i+=1
   end
-  collection
+  return collection
 end
 
 #at this point, I got a no block given (yield) error on repl
 
-my_each(collection) do |i|
-  puts i
-end
+
+
