@@ -9,6 +9,7 @@ def my_each(arr)
   end
 
   # add this so my_each method returns the original arr, otherwise it returns nothing
+  # this also means in the future we can build methods that returns different things. 
   arr
 
 end
